@@ -19,11 +19,11 @@ int main(){
         else if(nota >=60 && nota <=69){
         cout<<"D"<<endl;
     }
-        else if(nota < 60){
+        else if(nota < 60 && nota >=0){
         cout<<"F"<<endl;
     }   
         else{
-        cout<<" nota invalida."<<endl;
+        cout<<"nota invalida."<<endl;
         }
     return 0;
 }
